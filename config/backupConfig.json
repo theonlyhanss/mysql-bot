@@ -1,0 +1,7 @@
+{
+  "interval": {
+    "type": "minute",
+    "value": 1
+  },
+  "enabled": false
+}

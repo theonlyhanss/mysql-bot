@@ -1,0 +1,26 @@
+{
+    "name": "mysql-bot",
+    "version": "1.0.0",
+    "description": "discord bot backup mysql database otomatis",
+    "main": "index.js",
+    "scripts": {
+        "start": "node .",
+        "dev": "nodemon ."
+    },
+    "keywords": [
+    "javascript",
+    "discord-bot",
+    "mysql"
+    ],
+    "author": "Avante",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^14.16.3",
+        "dotenv": "^16.4.5",
+        "mysql2": "^3.11.4",
+        "mysqldump": "^3.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    }
+}
